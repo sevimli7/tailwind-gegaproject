@@ -3,11 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--Google Fonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700&family=Open+Sans&display=swap"
+     rel="stylesheet">
+
+      <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link href="/src/style.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <!--header-->
+    <header class="bg-black text-white">
+        <div class="container lg:container mx-2 lg:mx-auto py-4 flex items-center ">
+          <h1 class="text-transparent bg-clip-text mr-8 bg-gradient-to-r from-gega-red to-gega-white text-4xl font-gemunu font-bold">GEGA</h1>
+          <!--nav area-->
+          <div class="flex  lg:justify-between w-full lg:space-x-6">
+            <!--menu-->
+            <nav class="hidden lg:flex justify-start space-x-6">
+              <a href="index.html">HOME</a>
+              <a href="about.html">ABOUT</a>
+              <a href="movies.html">MOVIES</a>
+              <a href="blog.html">BLOG</a>
+              <a href="contact.html">CONTACT</a>
+            </nav>
+            <!--search area-->
+            <div class="flex space-x-4 group ">
+              <div class="border-r border-gega-red pr-2">
+                <form action="">
+                  <input class="group-hover:border-b transition duration-500 border-gega-red w-40  bg-transparent focus:outline-none " type="text">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+              </div>
+              <a href="#" class="whitespace-nowrap ">sing up</a>
+              <button class="uppercase px-2 rounded-sm font-gemunu bg-gega-red text-gega-grey">login</button>
+            </div>
+          </div>
+        </div>
+    </header>
+ 
+
 </body>
 </html>
