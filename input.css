@@ -4,9 +4,9 @@
 
 @layer base{
     h1, h2, h3, h4, h5, h6{
-        @apply font-gemunu uppercase;
+        @apply font-gemunu uppercase ;
     }
     a{
-        @apply uppercase font-gemunu;
+        @apply uppercase font-gemunu text-white;
     }
 }

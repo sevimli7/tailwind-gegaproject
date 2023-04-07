@@ -20,10 +20,10 @@
 <body>
     <!--header-->
     <header class="bg-black text-white">
-        <div class="container lg:container mx-2 lg:mx-auto py-4 flex items-center ">
-          <h1 class="text-transparent bg-clip-text mr-8 bg-gradient-to-r from-gega-red to-gega-white text-4xl font-gemunu font-bold">GEGA</h1>
+        <div class="container lg:mx-auto py-4 flex justify-between items-center ">
+          <h1 class="px-2 lg:px-0 text-transparent bg-clip-text mr-8 bg-gradient-to-r from-gega-red to-gega-white text-4xl font-gemunu font-bold">GEGA</h1>
           <!--nav area-->
-          <div class="flex  lg:justify-between w-full lg:space-x-6">
+          <div class="flex justify-between w-full lg:space-x-6">
             <!--menu-->
             <nav class="hidden lg:flex justify-start space-x-6">
               <a href="index.html">HOME</a>
@@ -33,19 +33,46 @@
               <a href="contact.html">CONTACT</a>
             </nav>
             <!--search area-->
-            <div class="flex space-x-4 group ">
+            <div class="flex justify-end space-x-4 group ">
               <div class="border-r border-gega-red pr-2">
                 <form action="">
-                  <input class="group-hover:border-b transition duration-500 border-gega-red w-40  bg-transparent focus:outline-none " type="text">
+                  <input class="group-hover:border-b transition duration-500 border-gega-red w-20 lg:w-40  bg-transparent focus:outline-none " type="text">
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </form>
               </div>
               <a href="#" class="whitespace-nowrap ">sing up</a>
-              <button class="uppercase px-2 rounded-sm font-gemunu bg-gega-red text-gega-grey">login</button>
+              <button class="uppercase px-2  rounded-sm font-gemunu bg-gega-red text-gega-grey">login</button>
             </div>
           </div>
         </div>
     </header>
+    <section class=" relative group">
+      <img src="images/batman.jpg" alt="" class="w-full h-128 object-cover">
+      <div class="absolute bg-gradient-to-b from-transparent to-black bottom-0 left-0 w-full ">
+        <!--hero text-->
+        <div class=" container flex flex-col">
+          <h4 class="text-white group-hover:mb-2 duration-500 text-lg">trailer</h4>
+          <h1 class="text-gega-melon font-bold text-6xl group-hover:mb-2 duration-500 ">batman is coming!</h1>
+          <p class="text-white w-2/3 group-hover:mb-2 duration-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Vel animi cum eaque, nostrum dolor ex dicta! Tenetur perspiciatis quas vel?</p>
+                <!--buttons-->
+            <div class="hidden group-hover:flex space-x-4 text-white mt-2 group-hover:mb-4 duration-500">
+            <h4> <a href="#" class="pr-4">watch the trailer</a> 
+              <span class="w-8 h-8 rounded-full py-1 px-1 bg-gega-red">
+                <i class="fa-solid fa-arrow-right "></i>
+              </span>
+            </h4>
+            <h4> <a href="#" class="pr-4">blog</a> 
+              <span class="w-8 h-8 rounded-full py-1 px-1 bg-gega-red">
+                <i class="fa-solid fa-arrow-right "></i>
+              </span>
+            </h4>
+            </div>
+        </div>
+     
+
+      </div>
+    </section>
  
 
 </body>
